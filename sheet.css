@@ -1,0 +1,33 @@
+
+thead {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+caption {
+    font-size: 100%;
+}
+th {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 150%; font-weight: 1000; 
+    text-decoration-line:underline;
+}
+
+table, th, td {border: 1px solid black;
+     
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+
+@media only screen and (max-width: 768px) {
+   body {
+       background-color: darkgreen;
+   }
+    
+}
+   @media only screen and (max-width: 500px) {
+    body {
+        background-color: rgb(100, 0, 100);
+    }
+}
